@@ -6,9 +6,9 @@ Our code has a bug or low quality before merging it into the main.
 2. Would you use an end-to-end test to check if a function is returning the correct output?
 No, because a unit test is better to use to check if the function is returning the correct output.
 Sometimes it could be hard to tell if an end-to-end test fails, and where exactly is the reason for it to fail
-3. What is the difference between navigation and snapshot mode?    
-| Navigation Mode          | Snapshot Mode                  |     
-|                          |                               |
+3. What is the difference between navigation and snapshot mode?
+
+| Navigation Mode          | Snapshot Mode                  | 
 |-------------------------|------------------------------|
 |Reload the page and run Lighthouse          | Do not reload the page and only run lighthouse on the current state of the website|
 |When to use: simulate user first visit to the site with cold load with metrics(FCP, LCP, TBT, CLS), measuring how the site the perform to first time user vs user comming back (cache vs no cache)   | when to use: when I want to check a new feature that is being used on the page, say a drop down filter with 3 boxes checked|

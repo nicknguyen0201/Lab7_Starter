@@ -1,16 +1,16 @@
 1. Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
-Within a Github action that runs whenever code is pushed. Becuase we gonna get instant feedback after we try to do a pr, to know whether 
-our code has bug or low quality before mering it into main.
+Within a GitHub action that runs whenever code is pushed. Because we're gonna get instant feedback after we try to do a pr, to know whether 
+Our code has a bug or low quality before merging it into the main.
 
-2. Would you use an end to end test to check if a function is returning the correct output?
-No because unit test is better to use for checking if function is returning the correct output.
-Sometime it could be hard to tell if a end-to-end test fail, where exactly is the reason for it to fail
-3. What is the difference between navigation and snapshot mode?
+2. Would you use an end-to-end test to check if a function is returning the correct output?
+No, because a unit test is better to use to check if the function is returning the correct output.
+Sometimes it could be hard to tell if an end-to-end test fails, and where exactly is the reason for it to fail
+3. What is the difference between navigation and snapshot mode?    
 | Navigation Mode          | Snapshot Mode                  |     
 |                          |                               |
 |-------------------------|------------------------------|
-|Reload the page and run lighthouse          | Do not reload the page and only run lighthouse on the current state of the website|
+|Reload the page and run Lighthouse          | Do not reload the page and only run lighthouse on the current state of the website|
 |When to use: simulate user first visit to the site with cold load with metrics(FCP, LCP, TBT, CLS), measuring how the site the perform to first time user vs user comming back (cache vs no cache)   | when to use: when I want to check a new feature that is being used on the page, say a drop down filter with 3 boxes checked|
 4. Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
    - Add meta viewport to allow web to be easier to read and interact on smaller screen like phones.

@@ -7,6 +7,7 @@ Our code has a bug or low quality before merging it into the main.
 
 No, because a unit test is better to use to check if the function is returning the correct output.
 Sometimes it could be hard to tell if an end-to-end test fails, and what exactly the reason for it to fail is
+
 3. What is the difference between navigation and snapshot mode?
 
 | Navigation Mode          | Snapshot Mode                  | 
